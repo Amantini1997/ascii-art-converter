@@ -14,13 +14,16 @@
         <p>Upload a picture and turn it into pure ASCII masterpiece!</p>
     </header>
 
-    <input type="file" name="picture" />
+    <input type="file" name="picture" accept='.jpg, .jpeg, .png'/>
     <canvas id="preview" style="display: none;"></canvas>
     <pre id="ascii"></pre>
 
     <footer>
         <p><a href="#">How does it works?</a> &bull; <a href="#">Source code (GitHub)</a></p>
     </footer>
+    <script src="./src/clamper.js"></script>
+    <script src="./src/contextToRgbMatrix.js"></script>
+    <script src="./src/grayToAscii.js"></script>
     <script src="./src/index.js"></script>
 </body>
 </html>
