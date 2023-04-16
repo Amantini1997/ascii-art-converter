@@ -1,3 +1,5 @@
 # Ascii Art Converter
 
-Support project for tutorial: [Converting an Image into Ascii Art](https://www.jonathan-petitcolas.com/2017/12/28/converting-image-to-ascii-art.html).
+This repo is a fork from jonathan-petitcolas [repo](https://github.com/jpetitcolas/ascii-art-converter/fork).
+
+The reason to fork it was to improve the original code with a few refactorings.
